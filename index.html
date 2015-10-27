@@ -71,14 +71,20 @@
 					<img src="images/dipy-logo.png" alt="DIPY logo" align="middle" style="background:none; border:none; box-shadow:none;">
 					<h2>Statistical learning of human brain structure</h2>
 					<p><a href="http://arokem.org">Ariel Rokem</a>, <a href="http://escience.washington.edu">University of Washington eScience Institute</a> </p>
-					<p class="fragment"> Follow along at <t><a href="http://arokem.github.io/2015-pydatanw/">http://arokem.github.io/2015-pydatanw/</t></a></p>
+					<p class="fragment"> Follow along at <t><a href="http://arokem.github.io/2015-10-27-dipy/">http://arokem.github.io/2015-10-27-dipy/</t></a></p>
 				</section>
 
 				<section>
-					<div>
-				<img src="images/eScience.png" width="800px" style="background:none; border:none; box-shadow:none;">
+					<h3>My plan for today</h3>
+					<li class="fragment"> Neuroimaging
+					<li class="fragment"> Statistical learning ideas applied to neuroimaging
+					<li class="fragment"> Open-source software that does it
+					<li class="fragment"> Basic science questions
+					<div class="fragment">
+						<h3>Happy to go off-script!</h3>
 					</div>
 				</section>
+
 
 		    	<section>
 		    		<h3>Normal behavior is supported by brain connectivity</h3>
@@ -721,63 +727,106 @@
 				</section>
 
 				<section>
-					<h2> Summary </h2>
-					<p class="fragment"> Measuring brain connectivity with diffusion MRI
-					<p class="fragment"> The Dipy project
-					<p class="fragment"> The validation problem
-					<p class="fragment"> <i>In vivo validation</i> through statistical learning
+				<img src="images/dipy-tree-with-stats.png" style="background:none; border:none; box-shadow:none;">
 				</section>
 
-				<section data-transition="fade-out">
-					<div style="position:absolute; left: 0px; top:-200px;">
-					<h2>Collaborators</h2>
-					</div>
-					<div class="fragment" style="position:absolute; left: 0px; top:-100px;">
-						Dipy:
-					</div>
-					<div class="fragment"style="position:absolute; left: 20px; top:0px;">
-						<img src="images/eleftherios.png" width="150px;" style="background:none; border:none; box-shadow:none;">
-						<div>
-							Eleftherios <br> Garyfallidis
-						</div>
-					</div>
-
-					<div class="fragment"style="position:absolute; left: 220px; top:0px;">
-						<img src="images/stefan.png" width="150px;" style="background:none; border:none; box-shadow:none;">
-						<div>
-							Stefan <br> Van der Walt
-						</div>
-					</div>
-
-					<div class="fragment"style="position:absolute; left: 430px; top:-2px;">
-						<img src="images/bago.png" width="160px;" style="background:none; border:none; box-shadow:none;">
-						<div>
-							Bago <br> Amirbekian
-						</div>
-					</div>
-
+				<section>
+					<h3>The verical occipital fasciculus - a century old controversy</h3>
+					<img src="images/yeatman1.png" style="background:none; border:none; box-shadow:none;">
+					<div align="right"><small>Yeatman et al. (2014)</small><div>
 				</section>
-				<section data-transition="fade">
-					<div style="position:absolute; left: 0px; top:-200px;">
-					<h2>Collaborators</h2>
-					</div>
 
-					<div class="fragment" style="position:absolute; left: 0px; top:-100px;">
-					Stanford VISTA lab:
-					</div>
-					<div class="fragment"style="position:absolute; left: 20px; top:0px;">
-						<img src="images/brian.png" width="150px;" style="background:none; border:none; box-shadow:none;">
-						<div>
-							Brian <br> Wandell
-						</div>
-					</div>
-					<div class="fragment"style="position:absolute; left: 220px; top:0px;">
-						<img src="images/franco.png" width="150px;" style="background:none; border:none; box-shadow:none;">
-						<div>
-							Franco <br> Pestilli
-						</div>
-					</div>
+
+				<section>
+					<h3>The verical occipital fasciculus - a century old controversy</h3>
+					<img src="images/yeatman2.png" style="background:none; border:none; box-shadow:none;">
+					<div align="right"><small>Yeatman et al. (2014)</small><div>
 				</section>
+
+				<section>
+					<h3>Resolved through computational neuroanatomy!</h3>
+					<img src="images/yeatman3.png" style="background:none; border:none; box-shadow:none;">
+					<div align="right"><small>Yeatman et al. (2014)</small><div>
+				</section>
+
+				<section>
+					<h3>The VOF is strategically located</h3>
+					<img src="images/takemura1.png" style="background:none; border:none; box-shadow:none;">
+					<div align="right"><small>Takemura et al. (2014)</small><div>
+				</section>
+
+				<section>
+					<h3>To transmit information between dorsal and ventral visual areas</h3>
+					<img src="images/takemura2.png" style="background:none; border:none; box-shadow:none;">
+					<div align="right"><small>Takemura et al. (2014)</small><div>
+				</section>
+
+			</section>
+			<section data-transition="fade-out">
+				<div style="position:absolute; left: 0px; top:-200px;">
+				<h2>Collaborators</h2>
+				</div>
+				<div class="fragment" style="position:absolute; left: 0px; top:-100px;">
+					Dipy:
+				</div>
+				<div class="fragment"style="position:absolute; left: 20px; top:0px;">
+					<img src="images/eleftherios.png" width="150px;" style="background:none; border:none; box-shadow:none;">
+					<div>
+						Eleftherios <br> Garyfallidis
+					</div>
+				</div>
+
+				<div class="fragment"style="position:absolute; left: 220px; top:0px;">
+					<img src="images/stefan.png" width="150px;" style="background:none; border:none; box-shadow:none;">
+					<div>
+						Stefan <br> Van der Walt
+					</div>
+				</div>
+
+				<div class="fragment"style="position:absolute; left: 430px; top:-2px;">
+					<img src="images/bago.png" width="160px;" style="background:none; border:none; box-shadow:none;">
+					<div>
+						Bago <br> Amirbekian
+					</div>
+				</div>
+
+			</section>
+			<section data-transition="fade">
+				<div style="position:absolute; left: 0px; top:-200px;">
+				<h2>Collaborators</h2>
+				</div>
+
+				<div class="fragment" style="position:absolute; left: 0px; top:-100px;">
+				Stanford VISTA lab:
+				</div>
+				<div class="fragment"style="position:absolute; left: 20px; top:0px;">
+					<img src="images/brian.png" width="150px;" style="background:none; border:none; box-shadow:none;">
+					<div>
+						Brian <br> Wandell
+					</div>
+				</div>
+				<div class="fragment"style="position:absolute; left: 220px; top:0px;">
+					<img src="images/franco.png" width="150px;" style="background:none; border:none; box-shadow:none;">
+					<div>
+						Franco <br> Pestilli
+					</div>
+				</div>
+
+				<div class="fragment"style="position:absolute; left: 380px; top:0px;">
+					<img src="images/jason.png" width="150px;" style="background:none; border:none; box-shadow:none;">
+					<div>
+						Jason <br> Yeatman <br> (now at UW ILABS!)
+					</div>
+				</div>
+
+				<div class="fragment"style="position:absolute; left: 700px; top:0px;">
+					<img src="images/hiromasa.png" width="150px;" style="background:none; border:none; box-shadow:none;">
+					<div>
+							Hiromasa <br> Takemura
+					</div>
+				</div>
+
+			</section>
 				<section>
 				<div style="position:absolute; left: 220px; top:-50px;">
 				<img src="images/globe-xxl.png" width="100px;" style="background:none; border:none; box-shadow:none;">

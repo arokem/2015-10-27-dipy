@@ -1,4 +1,4 @@
-### Pydata NW, July 26th, 2015
+### eScience Community Seminar 10/27/2015
 
 #### Dipy: diffusion MRI in Python
 
